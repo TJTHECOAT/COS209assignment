@@ -7,9 +7,8 @@ class Student {
         this.matric_no = matric_no;
         this.name = name;
     }
-    greet(){
-        console.log('Name: ${this.name},')
-        console.log('MatricNo: ${this.matric_no},')
-
-    }
+    getDetails(){
+        return 'MatricNo: ${this.matric_no}, Name: ${this.name}'
+        }
+        
 }
